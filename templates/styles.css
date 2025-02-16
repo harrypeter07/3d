@@ -19,36 +19,7 @@ body {
     overflow-x: hidden;
 }
 
-.loader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: var(--background);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
 
-.loader-content {
-    text-align: center;
-}
-
-.progress-bar {
-    width: 200px;
-    height: 2px;
-    background: var(--primary);
-    margin-top: 20px;
-}
-
-.progress {
-    width: 0;
-    height: 100%;
-    background: var(--accent);
-    transition: width 0.3s ease;
-}
 
 section {
     height: 100vh;
